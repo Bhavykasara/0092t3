@@ -1,0 +1,30 @@
+<html>
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+       <link rel="stylesheet" href="style(2).css">
+       <script src="main(2).js"></script>
+       <title>Math's Quiz</title>
+    </head>
+    <body>
+        <div id="divop">
+            <h2 id="score" class="op"><kbd>Player 1: 0</kbd></h2>
+            <h2 id="score2" class="op"><kbd>Player 2: 0</kbd></h2>
+        </div>
+        <center>
+            <h1 id="titleop"><kbd>Math's Quiz</kbd></h1>
+            <h2><kbd>While doing division, write the answer by rounding in it by 1</kbd></h2>
+            <div id="line"></div>
+            <div class="col-lg-4 col-sm-8 col-xs-11 player1_div">
+               <h2 id="a"><kbd>Question Turn:</kbd></h2>
+               <h2 id="q"><kbd>Question Turn:</kbd></h2>
+               <section id="op"></section>
+               <input placeholder="Enter the first Number" type="number" class="form-control" id="input1">
+               <input placeholder="Enter the second Number" type="number" class="form-control" id="input2">
+            </div>
+            <button id="btnm" class="btn btn-primary" onclick="send()"><kbd>Send</kbd></button>
+        </center>
+    </body>
+</html>
